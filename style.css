@@ -1,0 +1,45 @@
+body{
+    background:rgba(0, 0, 0, 0.082);
+    padding:0
+}
+.header{
+    background:white;
+}
+
+.topnavbar{
+    background:white;
+} 
+.categoryimg{
+    min-height:90px;
+}
+.addcontainer{
+    background:white;
+    box-sizing:border-box
+}
+.addimg{
+    width:100%;
+    height:auto;
+}
+.itemheading{
+    background:white;
+}
+.itemsection{
+    background:white;
+}
+.moreitems{
+    height:fit-content;
+    width:fit-content
+}
+.img-item{
+    width:100%;
+}
+.img-item:hover{
+    transform:scale(1.035);
+}
+.itemcontainer:hover{
+    cursor:pointer;
+}
+.footerheading{
+    color:rgba(255, 255, 255, 0.445);
+    font-weight: 1px;
+}

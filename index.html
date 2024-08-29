@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onliine Shoping Site for Mobiles,Electronics,Grocery,Furniture and More</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="icons/flipkart-icon.png">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row d-flex align-items-center justify-items-start flex-nowrap py-3 sticky-top header">
+
+            <div class="col-5 col-md-2 col-xxl-2 d-flex ">
+              <img class="d-sm-none "alt="Menu" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI1IDI0IiBmaWxsPSJub25lIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzExNzg3Xzg3NzY3KSI+CjxwYXRoIGQ9Ik00LjUgMTJIMjAuNSIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIxLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNNC41IDYuMjVIMjAuNSIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIxLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNNC41IDE3Ljc1SDIwLjUiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMS40IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMF8xMTc4N184Nzc2NyI+CjxyZWN0IHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0id2hpdGUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuNSkiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K" width="24" height="24">
+                <img class="img-fluid" src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" width="160" height="40" title="Flipkart">
+            </div>
+            <div class="col-md-6 d-none d-md-block ">
+                <div class="input-group ms-0">
+                    <span class="input-group-text" id="basic-addon1">
+                        <svg width="24" height="24" class="" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Search Icon</title><path d="M10.5 18C14.6421 18 18 14.6421 18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18Z" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16 16L21 21" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path></svg> 
+                    </span>
+                    <input type="text" class="form-control" placeholder="Search for Products,Brands and More">
+                </div>
+            </div>
+            <div class="col-5 col-md-4 col-xxl-5 d-flex d-none d-sm-flex align-items-center justify-content-evenly ms-auto">
+                <button type="button" class="btn btn-light d-flex">
+                    <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-52e0dc.svg" alt="Account" class="-dOa_b L_FVxe" width="24" height="24">
+                    <display-5 class="d-none d-md-block">Account</display-5>
+                    <display-5 class="d-block d-md-none">You</display-5>
+                </button>
+                <div class="d-flex">
+                    <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg" width="24" height="24">
+                    <display-5 class="d-none d-xl-block">Cart</display-5>
+                </div>
+                <div class="d-flex">
+                    <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg" width="24"height="24">
+                    <display-5 class="d-none d-xl-block">Become a Seller</display-5>
+                </div>
+                <button type="button" class="btn btn-light">
+                    <img class="-dOa_b" src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg" width="24" height="24"> 
+                </button>
+            </div>
+        </div>
+
+   <section class="row m-2">
+      <div class="col-12 d-flex justify-content-evenly py-5 bg-white addcontainer">
+        <div class="d-flex flex-column">
+          <div>
+            <img src="images/img1.jpg">
+          </div>
+          <div class="d-flex align-items-center">
+            <h5>category</h5>
+          </div>
+        </div>
+        <div class="d-none d-sm-block flex-column">
+          <div>
+            <img src="images/img1.jpg">
+          </div>
+          <div class="d-flex align-items-center">
+            <h5>category</h5>
+          </div>
+        </div>
+        <div class="d-none d-sm-block flex-column">
+          <div>
+            <img src="images/img1.jpg"class="">
+          </div>
+          <div class="d-flex align-items-center">
+            <h5>category</h5>
+          </div>
+        </div>                
+        <div class="d-none d-sm-flex flex-column">
+          <div>
+            <img src="images/img1.jpg"class="">
+          </div>
+          <div class="d-flex align-items-center">
+            <h5>category</h5>
+          </div>
+        </div>        
+        <div class="d-none d-sm-flex flex-column">
+          <div>
+            <img src="images/img1.jpg"class="">
+          </div>
+          <div class="d-flex align-items-center">
+            <h5>category</h5>
+          </div>
+        </div>
+        <div class="d-none d-sm-flex flex-column">
+          <div>
+            <img src="images/img1.jpg"class="">
+          </div>
+          <div class="d-flex align-items-center">
+            <h5>category</h5>
+          </div>
+        </div>
+        <div class="d-none d-sm-flex flex-column">
+          <div>
+            <img src="images/img1.jpg"class="">
+          </div>
+          <div class="d-flex align-items-center">
+            <h5>category</h5>
+          </div>
+        </div>
+        <div class="d-none d-md-flex flex-column">
+          <div>
+            <img src="images/img1.jpg"class="">
+          </div>
+          <div class="d-flex align-items-center">
+            <h5>category</h5>
+          </div>
+        </div>
+        <div class="d-none d-lg-flex  flex-column">
+          <div>
+            <img src="images/img1.jpg"class="">
+          </div>
+          <div class="d-flex align-items-center">
+            <h5>category</h5>
+          </div>
+        </div>
+        <div class="d-none d-xl-flex flex-column">
+          <div>
+            <img src="images/img1.jpg">
+          </div>
+          <div class="d-flex align-items-center">
+            <h5>category</h5>
+          </div>
+        </div>                                                
+        
+      </div>
+    </section >
+      <section class="row ">
+        <div class="col-12">
+          <img class="img-fluid addimg" src="images/addimg.jpg">
+        </div>
+      </section>
+      <div class="row itemheading ">
+            <div class="col-11">
+                <h4>Section of Items</h4>
+            </div>
+            <div class="col-1">
+                <div class="bg-primary rounded-circle moreitems ms-auto">
+                <svg width="16" height="16" fill="none" viewBox="0 0 17 17" style="margin: 4px;"><path d="m6.627 3.749 5 5-5 5" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                </div>
+            </div>
+      </div >
+      <section class="row itemsection ">
+            <div class="col-6 col-md-4 col-lg-2 p-2 itemcontainer">
+               <div class="border border-secondary p-1">
+                <div>
+                 <img class="img-item "src="images/imgitem.jpg">
+                </div>
+                <div class="d-flex flex-column align-items-center ">
+                  <display-6 >Item Name</display-6>
+                  <h6>Price Range</h6>
+                </div>
+              </div>
+            </div>
+            <div class=" col-6 col-md-4 col-lg-2 p-2  itemcontainer">
+                <div class="border border-secondary p-1">
+                 <div>
+                  <img class="img-item"src="images/imgitem.jpg">
+                 </div>
+                 <div class="d-flex flex-column align-items-center ">
+                   <display-6 >Item Name</display-6>
+                   <h6>Price Range</h6>
+                 </div>
+               </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 p-2 itemcontainer">
+              <div class="border border-secondary p-1">
+               <div>
+                <img class="img-item "src="images/imgitem.jpg">
+               </div>
+               <div class="d-flex flex-column align-items-center ">
+                 <display-6 >Item Name</display-6>
+                 <h6>Price Range</h6>
+               </div>
+             </div>
+           </div>
+           <div class=" col-6 col-md-4 col-lg-2 p-2  itemcontainer">
+               <div class="border border-secondary p-1">
+                <div>
+                 <img class="img-item"src="images/imgitem.jpg">
+                </div>
+                <div class="d-flex flex-column align-items-center ">
+                  <display-6 >Item Name</display-6>
+                  <h6>Price Range</h6>
+                </div>
+              </div>
+           </div>
+           <div class="col-6 col-md-4 col-lg-2 p-2 itemcontainer">
+            <div class="border border-secondary p-1">
+             <div>
+              <img class="img-item "src="images/imgitem.jpg">
+             </div>
+             <div class="d-flex flex-column align-items-center ">
+               <display-6 >Item Name</display-6>
+               <h6>Price Range</h6>
+             </div>
+           </div>
+         </div>
+         <div class=" col-6 col-md-4 col-lg-2 p-2  itemcontainer">
+             <div class="border border-secondary p-1">
+              <div>
+               <img class="img-item"src="images/imgitem.jpg">
+              </div>
+              <div class="d-flex flex-column align-items-center ">
+                <display-6 >Item Name</display-6>
+                <h6>Price Range</h6>
+              </div>
+            </div>
+         </div>                                                                                              
+      </section>
+        
+      <section class="row">
+      <div class="col-12 col-md-6 col-lg-4 d-flex flex-wrap itemsection">
+              <div class="w-100">
+                <h4 class="w-100">Section of Items</h4>
+            </div>
+            <div class="w-50 p-2  itemcontainer">
+              <div class="border border-secondary p-1">
+               <div>
+                <img class="img-item"src="images/imgitem.jpg">
+               </div>
+               <div class="d-flex flex-column align-items-center ">
+                 <display-6 >Item Name</display-6>
+                 <h6>Price Range</h6>
+               </div>
+             </div>
+            </div>
+            <div class="w-50 p-2  itemcontainer">
+              <div class="border border-secondary p-1">
+               <div>
+                <img class="img-item"src="images/imgitem.jpg">
+               </div>
+               <div class="d-flex flex-column align-items-center ">
+                 <display-6 >Item Name</display-6>
+                 <h6>Price Range</h6>
+               </div>
+             </div>
+            </div>
+            <div class="w-50 p-2  itemcontainer">
+              <div class="border border-secondary p-1">
+               <div>
+                <img class="img-item"src="images/imgitem.jpg">
+               </div>
+               <div class="d-flex flex-column align-items-center ">
+                 <display-6 >Item Name</display-6>
+                 <h6>Price Range</h6>
+               </div>
+             </div>
+            </div>
+            <div class="w-50 p-2  itemcontainer">
+              <div class="border border-secondary p-1">
+               <div>
+                <img class="img-item"src="images/imgitem.jpg">
+               </div>
+               <div class="d-flex flex-column align-items-center ">
+                 <display-6 >Item Name</display-6>
+                 <h6>Price Range</h6>
+               </div>
+             </div>
+            </div>                                                
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 d-flex flex-wrap itemsection">
+        <div class="w-100">
+          <h4 class="w-100">Section of Items</h4>
+      </div>
+      <div class="w-50 p-2  itemcontainer">
+        <div class="border border-secondary p-1">
+         <div>
+          <img class="img-item"src="images/imgitem.jpg">
+         </div>
+         <div class="d-flex flex-column align-items-center ">
+           <display-6 >Item Name</display-6>
+           <h6>Price Range</h6>
+         </div>
+       </div>
+      </div>
+      <div class="w-50 p-2  itemcontainer">
+        <div class="border border-secondary p-1">
+         <div>
+          <img class="img-item"src="images/imgitem.jpg">
+         </div>
+         <div class="d-flex flex-column align-items-center ">
+           <display-6 >Item Name</display-6>
+           <h6>Price Range</h6>
+         </div>
+       </div>
+      </div>
+      <div class="w-50 p-2  itemcontainer">
+        <div class="border border-secondary p-1">
+         <div>
+          <img class="img-item"src="images/imgitem.jpg">
+         </div>
+         <div class="d-flex flex-column align-items-center ">
+           <display-6 >Item Name</display-6>
+           <h6>Price Range</h6>
+         </div>
+       </div>
+      </div>
+      <div class="w-50 p-2  itemcontainer">
+        <div class="border border-secondary p-1">
+         <div>
+          <img class="img-item"src="images/imgitem.jpg">
+         </div>
+         <div class="d-flex flex-column align-items-center ">
+           <display-6 >Item Name</display-6>
+           <h6>Price Range</h6>
+         </div>
+       </div>
+      </div>                                                
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 d-flex flex-wrap itemsection">
+        <div class="w-100">
+          <h4 class="w-100">Section of Items</h4>
+      </div>
+      <div class="w-50 p-2  itemcontainer">
+        <div class="border border-secondary p-1">
+         <div>
+          <img class="img-item"src="images/imgitem.jpg">
+         </div>
+         <div class="d-flex flex-column align-items-center ">
+           <display-6 >Item Name</display-6>
+           <h6>Price Range</h6>
+         </div>
+       </div>
+      </div>
+      <div class="w-50 p-2  itemcontainer">
+        <div class="border border-secondary p-1">
+         <div>
+          <img class="img-item"src="images/imgitem.jpg">
+         </div>
+         <div class="d-flex flex-column align-items-center ">
+           <display-6 >Item Name</display-6>
+           <h6>Price Range</h6>
+         </div>
+       </div>
+      </div>
+      <div class="w-50 p-2  itemcontainer">
+        <div class="border border-secondary p-1">
+         <div>
+          <img class="img-item"src="images/imgitem.jpg">
+         </div>
+         <div class="d-flex flex-column align-items-center ">
+           <display-6 >Item Name</display-6>
+           <h6>Price Range</h6>
+         </div>
+       </div>
+      </div>
+      <div class="w-50 p-2  itemcontainer">
+        <div class="border border-secondary p-1">
+         <div>
+          <img class="img-item"src="images/imgitem.jpg">
+         </div>
+         <div class="d-flex flex-column align-items-center ">
+           <display-6 >Item Name</display-6>
+           <h6>Price Range</h6>
+         </div>
+       </div>
+      </div>                                                
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 d-flex flex-wrap itemsection">
+        <div class="w-100">
+          <h4 class="w-100">Section of Items</h4>
+      </div>
+      <div class="w-50 p-2  itemcontainer">
+        <div class="border border-secondary p-1">
+         <div>
+          <img class="img-item"src="images/imgitem.jpg">
+         </div>
+         <div class="d-flex flex-column align-items-center ">
+           <display-6 >Item Name</display-6>
+           <h6>Price Range</h6>
+         </div>
+       </div>
+      </div>
+      <div class="w-50 p-2  itemcontainer">
+        <div class="border border-secondary p-1">
+         <div>
+          <img class="img-item"src="images/imgitem.jpg">
+         </div>
+         <div class="d-flex flex-column align-items-center ">
+           <display-6 >Item Name</display-6>
+           <h6>Price Range</h6>
+         </div>
+       </div>
+      </div>
+      <div class="w-50 p-2  itemcontainer">
+        <div class="border border-secondary p-1">
+         <div>
+          <img class="img-item"src="images/imgitem.jpg">
+         </div>
+         <div class="d-flex flex-column align-items-center ">
+           <display-6 >Item Name</display-6>
+           <h6>Price Range</h6>
+         </div>
+       </div>
+      </div>
+      <div class="w-50 p-2  itemcontainer">
+        <div class="border border-secondary p-1">
+         <div>
+          <img class="img-item"src="images/imgitem.jpg">
+         </div>
+         <div class="d-flex flex-column align-items-center ">
+           <display-6 >Item Name</display-6>
+           <h6>Price Range</h6>
+         </div>
+       </div>
+      </div>                                                
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 d-flex flex-wrap itemsection">
+  <div class="w-100">
+    <h4 class="w-100">Section of Items</h4>
+</div>
+<div class="w-50 p-2  itemcontainer">
+  <div class="border border-secondary p-1">
+   <div>
+    <img class="img-item"src="images/imgitem.jpg">
+   </div>
+   <div class="d-flex flex-column align-items-center ">
+     <display-6 >Item Name</display-6>
+     <h6>Price Range</h6>
+   </div>
+ </div>
+</div>
+<div class="w-50 p-2  itemcontainer">
+  <div class="border border-secondary p-1">
+   <div>
+    <img class="img-item"src="images/imgitem.jpg">
+   </div>
+   <div class="d-flex flex-column align-items-center ">
+     <display-6 >Item Name</display-6>
+     <h6>Price Range</h6>
+   </div>
+ </div>
+</div>
+<div class="w-50 p-2  itemcontainer">
+  <div class="border border-secondary p-1">
+   <div>
+    <img class="img-item"src="images/imgitem.jpg">
+   </div>
+   <div class="d-flex flex-column align-items-center ">
+     <display-6 >Item Name</display-6>
+     <h6>Price Range</h6>
+   </div>
+ </div>
+</div>
+<div class="w-50 p-2  itemcontainer">
+  <div class="border border-secondary p-1">
+   <div>
+    <img class="img-item"src="images/imgitem.jpg">
+   </div>
+   <div class="d-flex flex-column align-items-center ">
+     <display-6 >Item Name</display-6>
+     <h6>Price Range</h6>
+   </div>
+ </div>
+</div>                                                
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 d-flex flex-wrap itemsection">
+  <div class="w-100">
+    <h4 class="w-100">Section of Items</h4>
+</div>
+<div class="w-50 p-2  itemcontainer">
+  <div class="border border-secondary p-1">
+   <div>
+    <img class="img-item"src="images/imgitem.jpg">
+   </div>
+   <div class="d-flex flex-column align-items-center ">
+     <display-6 >Item Name</display-6>
+     <h6>Price Range</h6>
+   </div>
+ </div>
+</div>
+<div class="w-50 p-2  itemcontainer">
+  <div class="border border-secondary p-1">
+   <div>
+    <img class="img-item"src="images/imgitem.jpg">
+   </div>
+   <div class="d-flex flex-column align-items-center ">
+     <display-6 >Item Name</display-6>
+     <h6>Price Range</h6>
+   </div>
+ </div>
+</div>
+<div class="w-50 p-2  itemcontainer">
+  <div class="border border-secondary p-1">
+   <div>
+    <img class="img-item"src="images/imgitem.jpg">
+   </div>
+   <div class="d-flex flex-column align-items-center ">
+     <display-6 >Item Name</display-6>
+     <h6>Price Range</h6>
+   </div>
+ </div>
+</div>
+<div class="w-50 p-2  itemcontainer">
+  <div class="border border-secondary p-1">
+   <div>
+    <img class="img-item"src="images/imgitem.jpg">
+   </div>
+   <div class="d-flex flex-column align-items-center ">
+     <display-6 >Item Name</display-6>
+     <h6>Price Range</h6>
+   </div>
+ </div>
+</div>                                                
+      </div>            
+      </section>                 
+     <section class="row">
+      <div class="col-12 col-md-6 col-lg-4">
+        <img src="images/smalladd.png" class="img-fluid my-2">
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <img src="images/smalladd.png" class="img-fluid my-2">
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <img src="images/smalladd.png" class="img-fluid my-2">
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <img src="images/smalladd.png" class="img-fluid my-2">
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <img src="images/smalladd.png" class="img-fluid my-2">
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <img src="images/smalladd.png" class="img-fluid my-2">
+      </div>
+      
+     </section>
+    <section class="row p-3">
+        <div class="col-12">
+                <h5>
+                    Top Stories:Brand Directory
+                </h5>
+                <display-5>Link category :</display-5>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item </span></a><br>               
+                <display-5>Link category :</display-5>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item |</span></a>
+                <a href=""class="text-decoration-none"><span class="text-dark">It is an item </span></a>
+        </div> 
+    </section>
+    <section class="row">
+            <div class="col-12 text-muted">
+                <h5>About Our Platform</h5><br>
+                <small>
+                    <display-5>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    aerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+
+                </display-5>
+                </small>
+                <h5>About Our Platform</h5><br>
+                <small>
+                    <display-5>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    aerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+
+                </display-5>
+                </small>
+                <h5>About Our Platform</h5><br>
+                <small>
+                    <display-5>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    aerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+
+                </display-5>
+                </small>
+                <h5>About Our Platform</h5><br>
+                <small>
+                    <display-5>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quaerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+                    aerat repellat ipsa, illo distinctio nihil veniam dolor eveniet, beatae sunt dolorem consequuntur minima maxime necessitatibus odio explicabo! Voluptatum, dolore nam?
+
+                </display-5>
+                </small>                                                
+            </div>        
+    </section>
+    <footer class="row bg-dark">
+            <div class="col-md-4 col-xl-2">
+                <display-6 class="footerheading ">
+                ABOUT
+                </display-6><br>
+                <display-6 >
+                    <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+                </display-6><br>
+                <display-6 >
+                  <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+              </display-6><br>
+              <display-6 >
+                <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+            </display-6><br>
+            <display-6 >
+              <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+          </display-6>
+            </div>
+            <div class="col-md-4 col-xl-2">
+              <display-6 class="footerheading ">
+              ABOUT
+              </display-6><br>
+              <display-6 >
+                  <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+              </display-6><br>
+              <display-6 >
+                <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+            </display-6><br>
+            <display-6 >
+              <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+          </display-6><br>
+          <display-6 >
+            <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+        </display-6>
+            </div>
+            <div class="col-md-4 col-xl-2">
+            <display-6 class="footerheading ">
+            ABOUT
+            </display-6><br>
+            <display-6 >
+                <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+            </display-6><br>
+            <display-6 >
+              <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+          </display-6><br>
+          <display-6 >
+            <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+        </display-6><br>
+        <display-6 >
+          <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+      </display-6>
+          </div>
+          <div class="col-md-4 col-xl-2">
+          <display-6 class="footerheading ">
+          ABOUT
+          </display-6><br>
+          <display-6 >
+              <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+          </display-6><br>
+          <display-6 >
+            <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+        </display-6><br>
+        <display-6 >
+          <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+      </display-6><br>
+      <display-6 >
+        <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+    </display-6>
+      </div>
+      <div class="col-md-4 col-xl-2">
+        <display-6 class="footerheading ">
+        ABOUT
+        </display-6><br>
+        <display-6 >
+            <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+        </display-6><br>
+        <display-6 >
+          <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+      </display-6><br>
+      <display-6 >
+        <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+    </display-6><br>
+    <display-6 >
+      <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+  </display-6>
+      </div>
+       <div class="col-md-4 col-xl-2">
+      <display-6 class="footerheading ">
+      ABOUT
+      </display-6><br>
+      <display-6 >
+          <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+      </display-6><br>
+      <display-6 >
+        <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+    </display-6><br>
+    <display-6 >
+      <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+  </display-6><br>
+  <display-6 >
+    <a class="text-white text-decoration-none footerlink" href="">Footerlink </a>
+</display-6>
+       </div>                                         
+    </footer>
+  </div>
+</body>
+</html>
